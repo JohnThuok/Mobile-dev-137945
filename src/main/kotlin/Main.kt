@@ -177,7 +177,7 @@ fun main(args: Array<String>){
 
 
 
-import java.util.*
+/*import java.util.*
 fun isTooHot(temperature: Int) = temperature > 30
 
 fun isDirty(dirty: Int) = dirty > 30
@@ -220,7 +220,7 @@ fun feedTheFish(){
 fun main(args: Array<String>){
     feedTheFish()
 
-}
+}*/
 
 
 
