@@ -1,12 +1,15 @@
 package example.myapp
 
 class Main {
-    fun buildAquarium() {
+    private fun buildAquarium() {
         val myAquarium = Aquarium()
-        myAquarium.printSize()
+        myAquarium.run {
+
+            printSize()
+        }
     }
 
-    fun Main(args: Array<String>){
+    fun Main (args: Array<String>){
         buildAquarium()
     }
 }
